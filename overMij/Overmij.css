@@ -2,6 +2,9 @@ h1{
     color: red;
 }
 
+h2{
+    color: greenyellow
+}
 td,
 th {
     border: 1px solid rgb(21, 86, 170);
