@@ -1,0 +1,39 @@
+h1{
+    color: red;
+}
+
+td,
+th {
+    border: 1px solid rgb(21, 86, 170);
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+}
+
+tr{
+    background-color: #eee;
+}
+
+th[scope="col"] {
+    background-color: #200d0d;
+    color: #fff;
+}
+
+th[scope="row"] {
+    background-color: #d7d9f2;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-family: cursive;
+    font-size: .8rem;
+}
