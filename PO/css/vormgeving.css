@@ -4,14 +4,85 @@ html, body {
 }
 
 body {
-    background: #5d524c;
+    background: #0be3ff;
     color: #c8c3bf;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     size: 14px;
     padding-left: 10%;
 }
 
-#vogel {
-    width: 225px;
-    height: auto;
+#container{
+    width: 70%;
+    height: 80%;
+    margin-left: 1%;
+}
+
+.verticaal {
+    margin-top: 20px;
+    background-color: rgba(255, 184, 53, 0.774);
+    float: left;
+    height: 100%;
+}
+
+.verticaal li {
+    display: block;
+    text-align: center;
+    margin: 35px 10px;
+}
+
+li {
+    font-size: 2.0rem;
+    width: 70%;;
+    color: #111;
+    background-color: #AAA;
+    padding: 5px 15px;
+    margin: 2px 0px;
+}
+#tekst{
+   width :70%;
+   background-color: darkblue; 
+   height: 100%;
+   padding-left: 25%;
+   padding-top: 1%;
+   padding-bottom: 40%;
+   font-size: 20px;
+   margin: 10px;
+   /* met de klok mee van boven naar rechts naar onder naar links */
+}
+
+#begin{
+    font-size: 30px;
+    background-color:darkgoldenrod;
+    width: 55%;
+    padding-left: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#begin2{
+    font-size: 35px;
+    background-color:darkred;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width:50%;
+    padding-left: 200px;
+}
+
+#intro{
+    color:darkgreen;
+    font-size: 30px;
+}
+
+#box{
+    font-size: 25px;
+    background-color: yellowgreen;
+    color:blueviolet;
+    padding-bottom: 20px;
+    padding-top: 10px;
+
+}
+
+.img{
+    max-width: 70%;
+    float: right;
 }
